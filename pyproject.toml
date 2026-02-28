@@ -1,0 +1,15 @@
+[project]
+name = "telegram-github"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.25.0",
+    "alembic>=1.18.4",
+    "psycopg2-binary>=2.9.11",
+    "pydantic-settings>=2.13.1",
+]
+
+[tool.alembic]
+script_location = "migrations"
+#file_template = "%%(year)d%%(month)d%%(day)d_%%(rev)s"
