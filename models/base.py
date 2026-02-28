@@ -70,6 +70,7 @@ class AbstractClass:
         obj_list = []
         for item in items:
             obj_list.append(cls(**item))
+        print(obj_list)
         db.add_all(obj_list)
         cls.commit()
 
